@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gridpractice</title>
+    <style>
+        .gridone{
+            display: grid;
+            grid-template-columns: 100px 100px;
+            margin-bottom: 100px;
+        }
+        .bluediv{
+            background-color: lightblue;
+            height: 100px;
+
+        }
+        .pinkdiv{
+            background-color: pink;
+            height: 100px;
+        }
+        .gridtwo{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridone">
+        <div class="bluediv">
+            bluediv
+        </div>
+        <div class="pinkdiv">
+            pinkdiv
+        </div>
+    </div>
+
+    <div class="gridtwo">
+        <div class="bluediv">
+            bluediv
+        </div>
+        <div class="pinkdiv">
+            pinkdiv
+        </div>
+        <div class="bluediv">
+            bluediv
+        </div>
+        <div class="pinkdiv">
+            pinkdiv
+        </div>
+        <div class="bluediv">
+                bluediv
+        </div>
+        <div class="pinkdiv">
+                pinkdiv
+        </div>
+    </div>
+    
+</body>
+</html>
